@@ -134,7 +134,8 @@ Upgrading to `4.3.x` is only possible from `4.2.x`.
 All [stable feature flags must be enabled](./feature-flags#how-to-enable-feature-flags),
 **before** an upgrade, or the upgrade may fail.
 
-If you are not on RabbitMQ 3.13 yet, refer to the table below to understand your upgrade path.
+For users on releases older than RabbitMQ 3.13, refer to the table below to understand
+a suitable upgrade path.
 
 <details>
   <summary>Release Series Upgradeability</summary>
