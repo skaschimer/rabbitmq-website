@@ -113,6 +113,7 @@ Miscellaneous projects:
    [docs](https://aioamqp.readthedocs.io/en/latest/))
  * [FastStream](https://pypi.org/project/faststream/), a powerful and easy-to-use Python library for building asynchronous services that interact with event streams. ([source code](https://github.com/airtai/faststream), [docs](https://faststream.airt.ai))
  * [amqp-client-python](https://pypi.org/project/amqp-client-python/), Client with high level of abstraction for manipulation of messages in the event bus RabbitMQ. ([source code](https://github.com/nutes-uepb/amqp-client-python), [docs](https://nutes-uepb.github.io/amqp-client-python/))
+ * [Repid](https://pypi.org/project/repid/), a simple, fast, and extensible async task queue framework, with built-in AsyncAPI 3.0 schema generation and AMQP 1.0 client implementation. ([source code](https://github.com/aleksul/repid), [docs](https://repid.aleksul.space))
 
 Miscellaneous projects:
 
