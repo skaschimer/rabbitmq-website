@@ -8,6 +8,8 @@ image: ./stream-browser.png
 We are excited to announce the release of RabbitMQ 4.3.
 This release brings powerful new capabilities designed to help you build more resilient, scalable, and observable messaging architectures.
 
+<!-- truncate -->
+
 Major enhancements to the open-source broker include:
 * [Quorum Queue features](#quorum-queue-features)
     * [Support for 32 strict message priority levels](#32-message-priorities)
@@ -25,8 +27,6 @@ We are also introducing the following new enterprise features in [VMware Tanzu R
 * [Stream browser in the Management UI](#stream-browser)
 * [Message scheduler](#message-scheduler)
 * [Linter](#linter)
-
-<!-- truncate -->
 
 ## Open-Source RabbitMQ
 
