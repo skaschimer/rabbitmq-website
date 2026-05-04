@@ -106,7 +106,7 @@ following steps. Consider a three node cluster with nodes A, B, and C:
   * check [version upgradability](#rabbitmq-version-upgradability); if a rolling upgrade between the old and new version is not supported,
     that also means that these two versions cannot coexist in a single cluster
   * check [Erlang version requirements](#rabbitmq-erlang-version-requirement)
-  * check [the release notes](https://github.com/rabbitmq/rabbitmq-server/releases/tag/v4.0.0)
+  * check [the release notes](https://github.com/rabbitmq/rabbitmq-server/releases/tag/v4.3.0)
  * Add a new node, node D, to the cluster
    for node D to be able to join the cluster)
  * Place a new replica of every quorum queue and every stream on the new node

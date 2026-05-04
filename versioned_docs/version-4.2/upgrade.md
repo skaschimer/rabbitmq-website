@@ -40,7 +40,7 @@ Refer to the [rolling upgrade guide](./rolling-upgrade) page for more details, b
 * Investigate if the current and target versions have a rolling upgrade path
   * check [version upgradability](#rabbitmq-version-upgradability)
   * check [Erlang version requirements](#rabbitmq-erlang-version-requirement)
-  * check [the release notes](https://github.com/rabbitmq/rabbitmq-server/releases/tag/v4.0.0)
+  * check [the release notes](https://github.com/rabbitmq/rabbitmq-server/releases/tag/v4.2.0)
   * verify that all [stable feature flags are enabled](./feature-flags#how-to-enable-feature-flags)
 * Check that the node or cluster is in a good state in order to be upgraded
   * no [alarms](./alarms) are in effect
