@@ -128,7 +128,7 @@ While we refer to "network" partitions, really a partition is
 any case in which the different nodes of a cluster can have
 communication interrupted without any node failing. In addition
 to network failures, suspending and resuming an entire OS can
-also cause partitions when used against running cluster nodes -
+also cause partitions when used against running cluster nodes
 as the suspended node will not consider itself to have failed, or
 even stopped, but the other nodes in the cluster will consider
 it to have done so.

@@ -199,7 +199,7 @@ We highly discourage clustering across a WAN due to the effect of network partit
 
 #### Quorum Queues
 
-[Quorum queues](/docs/quorum-queues) are CP and tolerate the loss of brokers as long as a quorum (majority) remains functioning. Likewise, in the event of a network partition, as long as the queue has a majority that can still communicate, the queue continues to function. Quorum queues do not use RabbitMQ's traditional [partition handling strategies](/docs/partitions#automatic-handling) but use their own failure detector that is both faster to detect partitions and failures but also less prone to false positives, this allows them to deliver the fastest fail-over of the replicated queue types.
+[Quorum queues](/docs/quorum-queues) are CP and tolerate the loss of brokers as long as a quorum (majority) remains functioning. Likewise, in the event of a network partition, as long as the queue has a majority that can still communicate, the queue continues to function. Quorum queues do not use RabbitMQ's traditional  partition handling strategies  but use their own failure detector that is both faster to detect partitions and failures but also less prone to false positives, this allows them to deliver the fastest fail-over of the replicated queue types.
 
 #### Classic Mirrored Queues
 
@@ -268,4 +268,3 @@ RabbitMQ provides excellent support for high availability within a single data c
 For business continuity plans that require multiple data centers, with geographical separation in an active-passive architecture there are challenges. An RPO of 0 minutes is only achievable with a single cluster and so is not realistic in a multi-DC (or multi-region) scenario. With an RPO above 0 minutes, we can leverage federation and shovel but this also presents challenges in the form of message duplication. This duplication can be accommodated with a deduplication strategy.
 
 RabbitMQ has many features on its road-map, including real asynchronous replication support for disaster recovery, data recovery tooling, rack awareness and more. So stay tuned because RabbitMQ is changing fast.
-
